@@ -1,0 +1,14 @@
+STAT: include config: julian.jconf
+
+------
+pass1_best: <s> GET
+pass1_best_wordseq: 0 2
+pass1_best_phonemeseq: sil | g eh t
+pass1_best_score: -4335.890625
+sentence1: <s> OPEN </s>
+wseq1: 0 6 1
+phseq1: sil | ow p ax n | sil
+cmscore1: 1.000 0.988 1.000
+score1: -4426.796387
+
+------

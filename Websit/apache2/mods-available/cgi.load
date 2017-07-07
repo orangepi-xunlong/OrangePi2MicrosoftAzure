@@ -1,0 +1,8 @@
+LoadModule cgi_module /usr/lib/apache2/modules/mod_cgi.so
+AddHandler cgi-script .cgi .pl .py .sh
+<Directory /var/www/cgi-bin/>
+Options Indexes FollowSymLinks MultiViews ExecCGI
+AllowOverride None
+Order allow,deny
+allow from all
+</Directory>
